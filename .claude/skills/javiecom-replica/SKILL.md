@@ -62,6 +62,13 @@ Si el usuario pide modificar la imagen antes de generar el vídeo (cambiar avata
 - Estética cercana y creíble: relatable creator / real UGC vibe.
 - Cierra SIEMPRE con: `No text, no watermark, no distortion.`
 
+## Reglas para secuencias de producto (varios planos del mismo vídeo)
+
+- **Bloque de escena fijo:** define una vez la escena (habitación, color y textura de pared, interruptor, luz y lado de la ventana) y repítela idéntica en TODOS los planos. Prohibido cambiar de ambiente entre planos (por ejemplo, luces LED de colores o luz tenue en un solo plano).
+- **Referencia de escena:** una vez aprobado un plano, recomienda subirlo como imagen de referencia para los siguientes y mantener la coherencia del fondo.
+- **No copiar la referencia:** si la captura de referencia tiene rasgos identificables (tatuajes, anillos, marcas), pide explícitamente que la mano salga sin ellos ("plain skin, absolutely no tattoo") y usa la misma mano en todos los planos.
+- **Mecanismo visible:** si el plano muestra el producto en uso, describe la pieza móvil (la lengua, la palanca) completa y visible, y di que la mano entra por el borde del encuadre sin taparla.
+
 ## Formato de salida (modo imagen)
 
 Devuelve SOLO el bloque, sin texto antes ni después:
