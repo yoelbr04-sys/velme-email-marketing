@@ -72,6 +72,8 @@ Si el usuario pide modificar la imagen antes de generar el vídeo (cambiar avata
 
 - **Referencias limpias y coherentes:** recomienda un máximo de 3 referencias, sin contradicciones (misma pieza, sin manos con tatuajes, sin texto superpuesto, sin imágenes generadas con errores). Una referencia por cosa: pieza A sola, pieza B sola, escena.
 - **Geometría explícita:** describe cada pieza física por su forma real (partes, huecos, qué queda abierto o cubierto), nunca con palabras vagas como "frame" o "support". Añade negativos de forma ("not a closed frame, no arch cutouts"). Si la mecánica de ensamblaje no está clara en las fotos, dilo y pregunta antes de asumirla.
+- **Acciones de encaje (colocar, enganchar, montar):** une el recorrido en un solo clip y genera dos imágenes, inicio y final, para usar "Frames to video". El prompt del final debe describir el encaje exacto (simétrico, centrado, piezas en contacto con los bordes, sin desplazamientos) y añadir negativos ("not offset to one side, not hanging off, not asymmetrical").
+- **Recrear una captura de referencia:** si el usuario quiere el mismo plano que una captura, pide "Recreate the reference photo exactly" y lista solo lo que cambia (fondo, mano, quitar texto/iconos superpuestos).
 - **Producto físico:** si Flow sigue fallando, recomienda partir de una foto real del producto en vez de una imagen generada.
 
 ## Formato de salida (modo imagen)
