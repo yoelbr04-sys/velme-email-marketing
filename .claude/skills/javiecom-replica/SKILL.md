@@ -69,6 +69,10 @@ Si el usuario pide modificar la imagen antes de generar el vídeo (cambiar avata
 - **No copiar la referencia:** si la captura de referencia tiene rasgos identificables (tatuajes, anillos, marcas), pide explícitamente que la mano salga sin ellos ("plain skin, absolutely no tattoo") y usa la misma mano en todos los planos.
 - **Mecanismo visible:** si el plano muestra el producto en uso, describe la pieza móvil (la lengua, la palanca) completa y visible, y di que la mano entra por el borde del encuadre sin taparla.
 
+- **Referencias limpias y coherentes:** recomienda un máximo de 3 referencias, sin contradicciones (misma pieza, sin manos con tatuajes, sin texto superpuesto, sin imágenes generadas con errores). Una referencia por cosa: pieza A sola, pieza B sola, escena.
+- **Geometría explícita:** describe cada pieza física por su forma real (partes, huecos, qué queda abierto o cubierto), nunca con palabras vagas como "frame" o "support". Añade negativos de forma ("not a closed frame, no arch cutouts"). Si la mecánica de ensamblaje no está clara en las fotos, dilo y pregunta antes de asumirla.
+- **Producto físico:** si Flow sigue fallando, recomienda partir de una foto real del producto en vez de una imagen generada.
+
 ## Formato de salida (modo imagen)
 
 Devuelve SOLO el bloque, sin texto antes ni después:
