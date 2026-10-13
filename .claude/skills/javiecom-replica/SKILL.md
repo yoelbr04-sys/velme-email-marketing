@@ -74,6 +74,7 @@ Si el usuario pide modificar la imagen antes de generar el vídeo (cambiar avata
 - **Geometría explícita:** describe cada pieza física por su forma real (partes, huecos, qué queda abierto o cubierto), nunca con palabras vagas como "frame" o "support". Añade negativos de forma ("not a closed frame, no arch cutouts"). Si la mecánica de ensamblaje no está clara en las fotos, dilo y pregunta antes de asumirla.
 - **Acciones de encaje (colocar, enganchar, montar):** une el recorrido en un solo clip y genera dos imágenes, inicio y final, para usar "Frames to video". El prompt del final debe describir el encaje exacto (simétrico, centrado, piezas en contacto con los bordes, sin desplazamientos) y añadir negativos ("not offset to one side, not hanging off, not asymmetrical").
 - **Recrear una captura de referencia:** si el usuario quiere el mismo plano que una captura, pide "Recreate the reference photo exactly" y lista solo lo que cambia (fondo, mano, quitar texto/iconos superpuestos).
+- **Cuidado con "vacío / empty / sin X":** pedir que una parte esté vacía hace que el modelo borre los detalles alrededor (por ejemplo, la cara pintada de una figura). Describe siempre lo que SÍ debe verse (ojos, dientes, colores) y limita lo que falta a su zona exacta ("only a small dark slot in the lower center of the mouth, not a big black hole").
 - **Producto físico:** si Flow sigue fallando, recomienda partir de una foto real del producto en vez de una imagen generada.
 
 ## Formato de salida (modo imagen)
