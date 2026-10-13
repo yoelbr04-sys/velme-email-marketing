@@ -65,6 +65,7 @@ Si el usuario pide modificar la imagen antes de generar el vídeo (cambiar avata
 ## Reglas para secuencias de producto (varios planos del mismo vídeo)
 
 - **Bloque de escena fijo:** define una vez la escena (habitación, color y textura de pared, interruptor, luz y lado de la ventana) y repítela idéntica en TODOS los planos. Prohibido cambiar de ambiente entre planos (por ejemplo, luces LED de colores o luz tenue en un solo plano).
+- **Fondo mínimo:** para planos de producto sobre pared, usa como fondo fijo solo la pared lisa llenando todo el encuadre, con negativos explícitos ("no window, no curtain, no door, no bed, no furniture"). No pidas ventanas, cortinas, camas ni muebles: cada plano los reinventa distinto y rompe la coherencia. Un fondo mínimo y repetido en todos los prompts es la forma más fiable de mantenerlo igual.
 - **Referencia de escena:** una vez aprobado un plano, recomienda subirlo como imagen de referencia para los siguientes y mantener la coherencia del fondo.
 - **No copiar la referencia:** si la captura de referencia tiene rasgos identificables (tatuajes, anillos, marcas), pide explícitamente que la mano salga sin ellos ("plain skin, absolutely no tattoo") y usa la misma mano en todos los planos.
 - **Mecanismo visible:** si el plano muestra el producto en uso, describe la pieza móvil (la lengua, la palanca) completa y visible, y di que la mano entra por el borde del encuadre sin taparla.
