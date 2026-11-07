@@ -279,3 +279,24 @@ Sé práctico, sin preguntas innecesarias. Ejemplo: si el usuario dice "UGC con 
 ## Regla de oro
 
 El usuario habla en español; el prompt de dirección está en inglés; el guión permanece en español; la línea de acento va en el idioma exacto del Knowledge; cámara, voz, micro-acciones y skincare se extraen literalmente del Knowledge; no inventes líneas que existan en Knowledge; no supongas ni repreguntes información.
+
+---
+
+# PLANTILLAS APROBADAS POR EL USUARIO (úsalas tal cual, solo cambia [FONDO])
+
+## Clip 2 — La lengua (palanca) encaja en el hueco del molde, solo 5 cm desde fuera
+Aprobada por el usuario ("este prompt lo quiero siempre para el clip 2, adaptado a cualquier vídeo"). No la alargues, no añadas zoom ni reglas nuevas: la palanca es EXACTAMENTE la pieza de la foto de referencia y la mano solo se mueve 5 cm hacia dentro.
+
+Adjuntos del vídeo: foto de inicio (palanca a 5 cm del hueco) como inicio, foto de la palanca colgada con la mano como final, y la foto de la palanca como imagen de referencia.
+
+**Foto de inicio** (se parte de la foto de la palanca colgada):
+```
+Edit the first image. The lever is not hooked yet: the hand holds the pink lever by its tongue, exactly the same piece as in the first image, with its front end 5 cm away from the hook of the mold, outside of it, in front of the wall and perfectly aligned with the hook. Everything else stays exactly the same: the plate, the mold, the hand and its grip, the wall, the shelf, the poster and the light. There is only one lever and one mold.
+```
+
+**Vídeo** ([FONDO] = descripción del fondo del vídeo, p. ej. "A Pokémon fan's bedroom wall: a plain off-white matte wall with a framed red and white Poké Ball poster at the upper right and a small wooden shelf with plush toys and Poké Balls at the upper left, both softly out of focus, with soft natural daylight"; o "A completely plain white matte wall fills the whole frame, with soft natural daylight"):
+```
+Static camera, locked-off shot, no camera movement. First-person POV. [FONDO], and a dark graphite square switch plate with the pink mold mounted on it. The pink lever is exactly the piece shown in the reference photo and in the first frame, held by its wide flat tongue, with its front end 5 cm away from the hook of the mold. In the first second, the hand holds the lever still, aligned with the hook. In the next three seconds, the hand moves only 5 cm, straight from the outside toward the mold, so that the front end of the lever fits into the space of the hook and sits there, well placed. In the last second, the hand stays still and the lever hangs from the mold with its tongue extending outward and downward, as in the last frame. The lever never changes shape, size or color: it is the exact piece of the reference photo, and it is the only pink piece in the hand. The mold and the switch plate are fixed to the wall and do not move. The wall and everything in the background stay exactly the same. Single continuous take, no cuts or scene changes.
+```
+
+Si la pieza sale rara: repetir "the lever is a copy of the reference photo in every frame, with the same flat tab and the same wide flat tongue". Si la mano cambia: "the hand keeps the same grip on the tongue in every frame". Si se queda quieto: comprobar que se adjuntan inicio y final y la foto de referencia. Último recurso: truco del clip inverso.
